@@ -231,6 +231,25 @@ body {
     background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
+.but #telegram {
+  background-color: #fff;
+  color: #9d1313;
+  height: 100%;
+  font-family: var(--fnt1);
+  padding: 1rem;
+  border: 0.4rem solid #9d1313;
+  border-radius: 0.1rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  align-items: center;
+  box-shadow: 0 0.5rem #9d1313;
+  letter-spacing: -0rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
 button svg {
   width: 60px;
 }
@@ -243,6 +262,13 @@ button svg {
 }
 
 .but #special:hover {
+  background-color: #9d1313;
+  box-shadow: 0 0.1rem #9d1313;
+  color: #fff;
+  transform: translate3d(0, 0.4rem, 0);
+}
+
+.but #telegram:hover {
   background-color: #9d1313;
   box-shadow: 0 0.1rem #9d1313;
   color: #fff;
@@ -373,13 +399,10 @@ button svg {
     width: 90%;
   }
 
-
-
   .sub h3 {
     font-size: 1.7rem;
     line-height: 2.1rem;
     display: none;
-
   }
 
   .but {
@@ -398,6 +421,9 @@ button svg {
   .but #special {
     height: 40%;
   }
-  
 
+  
+  .but #telegram {
+    height: 40%;
+  }
 }
