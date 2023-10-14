@@ -354,7 +354,9 @@ button svg {
   .but {
     width: 700px;
   }
-
+  button svg {
+    width: 30px;
+  }
   .anim h2 {
     font-size: 5.2rem;
   }
@@ -407,7 +409,7 @@ button svg {
 
   .but {
     align-items: start;
-    width: 700px;
+    width: 630px;
     height: 35%;
     gap: 1vmin;
   }
