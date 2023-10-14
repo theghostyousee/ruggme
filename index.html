@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="cry.png">
+    <link rel="icon" href="cry.png" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@RuggCoin"> <!-- your website's Twitter handle -->
+    <meta name="twitter:title" content="RUGG ME DADDY">
+    <meta name="twitter:description" content="it's over">
+    <meta name="twitter:image" content="https://pbs.twimg.com/media/FxXq_AXWYAEO3Eq.jpg:large">
 
     <title>RUGG ME</title>
   </head>
@@ -15,7 +21,10 @@
       </div>
 
       <div class="sub">
-        <h3>WE'RE SO DOOMED <br> BRO!</h3>
+        <h3>
+          WE'RE SO DOOMED <br />
+          BRO!
+        </h3>
       </div>
       <div class="but">
         <button id="special">
@@ -63,21 +72,28 @@
     </div>
 
     <script>
-        // Redirect to Twitter
-        document.getElementById('special').addEventListener('click', function () {
-            window.open("https://twitter.com", "_blank");
-        });
-        
-        // Redirect to YouTube in a new tab
-        document.getElementById('main').addEventListener('click', function () {
-            window.open("https://youtube.com", "_blank");
-        });
-        
-        // Redirect to YouTube for the telegram button in a new tab
-        document.getElementById('telegram').addEventListener('click', function () {
-            window.open("https://youtube.com", "_blank");
+
+      document.getElementById("special").addEventListener("click", function () {
+        window.open("https://twitter.com/RuggCoin", "_blank");
+      });
+
+
+      function clickonbody() {
+        var text = "it's so over...%0a%0a";
+        var hash = "I've just been rugged by @RuggCoin 🩸%0a%0a";
+        var site = "Rugg yourself too on ruggcoin.xyz";
+        window.open("https://twitter.com/intent/tweet?&text=\n" + text + hash + site, "_blank");
+    }
+    
+      window.onload = function () {
+        document.getElementById("main").addEventListener("click", clickonbody);
+      };
+
+      document
+        .getElementById("telegram")
+        .addEventListener("click", function () {
+          window.open("https://t.me/ruggcoin", "_blank");
         });
     </script>
-
   </body>
 </html>
