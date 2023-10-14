@@ -344,7 +344,7 @@ button svg {
 
 @media screen and (max-width: 430px) {
   .wrap {
-    height: 90%;
+    height: 100%;
   }
 
   body {
