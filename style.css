@@ -41,7 +41,7 @@
   --fnt1: "HVD Comic Serif Pro", sans-serif;
   --fnt2: "GUERRILLA", sans-serif;
   --fnt3: "Chakra Petch", sans-serif;
-  --clr3: #9c1313;
+  --clr3: #1c9c13;
   --clr4: #1f1f1f;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -49,7 +49,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   overflow: auto;
-  scrollbar-color: #ea3535 rgba(0, 0, 0, 0);
+  scrollbar-color: #56ea35 rgba(0, 0, 0, 0);
   scrollbar-width: thin;
 }
 
@@ -73,7 +73,7 @@ body {
   width: 100%;
   display: flex;
   color: white;
-  background-color: #ffd3ec;
+  background-color: #04CB00;
   align-items: center;
   flex-direction: column;
   position: relative;
@@ -83,7 +83,7 @@ body {
 .wrap {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 95%;
   height: 80%;
   align-items: center;
   justify-content: center;
@@ -98,7 +98,7 @@ body {
 }
 
 .anim h2 {
-  font-size: 8.2rem;
+  font-size: 6.5rem;
   text-align: center;
   font-family: var(--fnt1);
 
@@ -135,7 +135,7 @@ body {
     color: #fff;
   }
   50% {
-    color: #ec6060;
+    color: #fafbfadb;
   }
   to {
     color: #fff;
@@ -151,12 +151,12 @@ body {
 }
 
 .sub h3 {
-  font-size: 6.2rem;
+  font-size: 4.5rem;
   line-height: 5.1rem;
   font-family: var(--fnt2);
   text-align: center;
   -webkit-text-stroke: 0.15rem #111111;
-  color: red;
+  color: #fffefe;
   display: inline-block;
   animation: elongateAnimation 1s infinite;
   transform-origin: center bottom;
@@ -194,18 +194,18 @@ body {
 
 .but #main {
   background-color: #fff;
-  color: #9d1313;
+  color: #0c5c14;
   height: 100%;
   font-family: var(--fnt1);
   padding: 1rem;
-  border: 0.4rem solid #9d1313;
+  border: 0.4rem solid #0c5c14;
   border-radius: 0.1rem;
   width: 40%;
   display: flex;
   justify-content: center;
   font-size: 2.5em;
   align-items: center;
-  box-shadow: 0 0.5rem #9d1313;
+  box-shadow: 0 0.5rem #0c5c14;
   letter-spacing: -0rem;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
@@ -214,17 +214,17 @@ body {
 
 .but #special {
   background-color: #fff;
-  color: #9d1313;
+  color: #0c5c14;
   height: 100%;
   font-family: var(--fnt1);
   padding: 1rem;
-  border: 0.4rem solid #9d1313;
+  border: 0.4rem solid #0c5c14;
   border-radius: 0.1rem;
   display: flex;
   justify-content: center;
   font-size: 1.5em;
   align-items: center;
-  box-shadow: 0 0.5rem #9d1313;
+  box-shadow: 0 0.5rem #0c5c14;
   letter-spacing: -0rem;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
@@ -233,17 +233,17 @@ body {
 
 .but #telegram {
   background-color: #fff;
-  color: #9d1313;
+  color: #0c5c14;
   height: 100%;
   font-family: var(--fnt1);
   padding: 1rem;
-  border: 0.4rem solid #9d1313;
+  border: 0.4rem solid #0c5c14;
   border-radius: 0.1rem;
   display: flex;
   justify-content: center;
   font-size: 1.5em;
   align-items: center;
-  box-shadow: 0 0.5rem #9d1313;
+  box-shadow: 0 0.5rem #0c5c14;
   letter-spacing: -0rem;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
@@ -255,22 +255,22 @@ button svg {
 }
 
 .but #main:hover {
-  background-color: #9d1313;
-  box-shadow: 0 0.1rem #9d1313;
+  background-color: #139d3c;
+  box-shadow: 0 0.1rem #139d15;
   color: #fff;
   transform: translate3d(0, 0.4rem, 0);
 }
 
 .but #special:hover {
-  background-color: #9d1313;
-  box-shadow: 0 0.1rem #9d1313;
+  background-color: #139d3c;
+  box-shadow: 0 0.1rem #139d15;
   color: #fff;
   transform: translate3d(0, 0.4rem, 0);
 }
 
 .but #telegram:hover {
-  background-color: #9d1313;
-  box-shadow: 0 0.1rem #9d1313;
+  background-color: #139d3c;
+  box-shadow: 0 0.1rem #139d15;
   color: #fff;
   transform: translate3d(0, 0.4rem, 0);
 }
