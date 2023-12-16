@@ -73,7 +73,7 @@ body {
   width: 100%;
   display: flex;
   color: white;
-  background-color: #04CB00;
+  background-color: #DE625E;
   align-items: center;
   flex-direction: column;
   position: relative;
@@ -194,18 +194,18 @@ body {
 
 .but #main {
   background-color: #fff;
-  color: #0c5c14;
+  color: #DE625E;
   height: 100%;
   font-family: var(--fnt1);
   padding: 1rem;
-  border: 0.4rem solid #0c5c14;
+  border: 0.4rem solid #070100;
   border-radius: 0.1rem;
   width: 40%;
   display: flex;
   justify-content: center;
   font-size: 2.5em;
   align-items: center;
-  box-shadow: 0 0.5rem #0c5c14;
+  box-shadow: 0 0.5rem #070100;
   letter-spacing: -0rem;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
@@ -214,17 +214,17 @@ body {
 
 .but #special {
   background-color: #fff;
-  color: #0c5c14;
+  color: #DE625E;
   height: 100%;
   font-family: var(--fnt1);
   padding: 1rem;
-  border: 0.4rem solid #0c5c14;
+  border: 0.4rem solid #070100;
   border-radius: 0.1rem;
   display: flex;
   justify-content: center;
   font-size: 1.5em;
   align-items: center;
-  box-shadow: 0 0.5rem #0c5c14;
+  box-shadow: 0 0.5rem #070700;
   letter-spacing: -0rem;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
@@ -233,17 +233,17 @@ body {
 
 .but #telegram {
   background-color: #fff;
-  color: #0c5c14;
+  color: #DE625E;
   height: 100%;
   font-family: var(--fnt1);
   padding: 1rem;
-  border: 0.4rem solid #0c5c14;
+  border: 0.4rem solid #070100;
   border-radius: 0.1rem;
   display: flex;
   justify-content: center;
   font-size: 1.5em;
   align-items: center;
-  box-shadow: 0 0.5rem #0c5c14;
+  box-shadow: 0 0.5rem #070100;
   letter-spacing: -0rem;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
@@ -255,22 +255,22 @@ button svg {
 }
 
 .but #main:hover {
-  background-color: #139d3c;
-  box-shadow: 0 0.1rem #139d15;
+  background-color: #DE625E;
+  box-shadow: 0 0.1rem #000000;
   color: #fff;
   transform: translate3d(0, 0.4rem, 0);
 }
 
 .but #special:hover {
-  background-color: #139d3c;
-  box-shadow: 0 0.1rem #139d15;
+  background-color: #DE625E;
+  box-shadow: 0 0.1rem #000000;
   color: #fff;
   transform: translate3d(0, 0.4rem, 0);
 }
 
 .but #telegram:hover {
-  background-color: #139d3c;
-  box-shadow: 0 0.1rem #139d15;
+  background-color: #DE625E;
+  box-shadow: 0 0.1rem #000000;
   color: #fff;
   transform: translate3d(0, 0.4rem, 0);
 }
