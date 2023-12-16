@@ -212,6 +212,10 @@ body {
     background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
+p{
+  text-align: center;
+}
+
 .but #special {
   background-color: #fff;
   color: #DE625E;
